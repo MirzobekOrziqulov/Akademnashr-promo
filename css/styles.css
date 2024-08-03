@@ -13,6 +13,18 @@ body {
   background-color: #fff;
 }
 
+.logo-link {
+  transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:hover {
+  opacity: 0.6;
+}
+
 .site-header-actions {
   display: flex;
   align-items: center;
@@ -33,14 +45,34 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
 }
 
+.sitenav-link:hover {
+  color: #ff7500;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+/* MAIN-LINK */
 .main-link {
   font-size: 13px;
   line-height: 15px;
   background-color: #ff7500;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.4s ease;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+
+.main-link:active {
+  opacity: 0.6;
 }
 
 .hero {
@@ -161,6 +193,17 @@ hero-text {
   align-items: center;
 }
 
+.site-footer-socials a {
+  color: #252420;
+}
+
+.site-footer-socials a:hover {
+  color: #ff7500;
+}
+
+.site-footer-socials a:active {
+  opacity: 0.6;
+}
 
 .site-footer-divider {
   background-color: rgb(37, 36, 32, 0.5);
@@ -178,4 +221,12 @@ hero-text {
 .site-footer-links a {
   text-decoration: none;
   color: #252420;
+}
+
+.site-footer-links a:hover {
+  color: #ff7500;
+}
+
+.site-footer-links a:focus {
+  opacity: 0.6;
 }
