@@ -238,11 +238,13 @@ hero-text {
 
 /* PROMO */
 .promo {
+  border-radius: 12px;
   padding-top: 120px;
   padding-bottom: 160px;
 }
 
-.promo-container {
+
+.promo-inner {
   border-radius: 12px;
   background-color: #252420;
   padding: 64px;
@@ -250,7 +252,6 @@ hero-text {
   justify-content: space-between;
   align-items: center;
   color: #fff;
-
 }
 
 .promo-content {
@@ -298,6 +299,8 @@ hero-text {
   background-color: #f8f8f8
 }
 
+
+
 .site-footer-top {
   display: flex;
   align-items: center;
@@ -319,6 +322,7 @@ hero-text {
 
 .site-footer-socials li {
   margin: 0;
+  margin-bottom: 0;
   margin-right: 16px;
 }
 
@@ -346,6 +350,11 @@ hero-text {
 .site-footer-socials a:active {
   opacity: 0.6;
 }
+
+.site-footer-socials svg {
+  display: block;
+}
+
 
 .site-footer-divider {
   height: 2px;
